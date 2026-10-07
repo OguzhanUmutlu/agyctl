@@ -1,0 +1,13 @@
+target/
+dist/
+build_pkg/
+*.tmp
+*.log
+.cache/
+cache.json
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

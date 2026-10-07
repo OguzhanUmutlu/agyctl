@@ -1,0 +1,12 @@
+[Unit]
+Description=Antigravity Quota Cache Daemon (agyctl)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/agyctl daemon --interval 10
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
